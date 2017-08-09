@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/registration_screen_bg">
+
+  <ImageView
+    android:id="@+id/registration_scr_icon_image"
+    android:layout_width="wrap_content"
+    android:layout_height="250dp"
+    android:src="@drawable/registration_screen_icon" />
+
+  <EditText
+    android:id="@+id/registartion_screen_email_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/registration_screen_text_fields_top_bottom_margins"
+    android:layout_marginBottom="@dimen/registration_screen_text_fields_top_bottom_margins"
+    android:layout_marginLeft="@dimen/registration_screen_text_fields_side_margins"
+    android:layout_marginRight="@dimen/registration_screen_text_fields_side_margins"
+    android:layout_below="@id/registration_scr_icon_image"
+    android:background="@drawable/text_field_round_bg"
+    android:fontFamily="sans-serif-condensed"
+    android:hint="@string/email_adress_hint"
+    android:inputType="textEmailAddress"
+    android:textColorHint="@android:color/white" />
+
+  <EditText
+    android:id="@+id/registartion_screen_password_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/registration_screen_text_fields_top_bottom_margins"
+    android:layout_marginBottom="@dimen/registration_screen_text_fields_top_bottom_margins"
+    android:layout_marginLeft="@dimen/registration_screen_text_fields_side_margins"
+    android:layout_marginRight="@dimen/registration_screen_text_fields_side_margins"
+    android:layout_below="@id/registartion_screen_email_field"
+    android:background="@drawable/text_field_round_bg"
+    android:fontFamily="sans-serif-condensed"
+    android:hint="@string/password_hint"
+    android:inputType="textPassword"
+    android:textColorHint="@android:color/white" />
+
+  <Button
+    android:id="@+id/register_new_user_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/splash_screen_buttons_top_margin"
+    android:layout_marginLeft="@dimen/splash_screen_buttons_margins"
+    android:layout_marginRight="@dimen/splash_screen_buttons_margins"
+    android:layout_below="@id/registartion_screen_password_field"
+    android:background="@drawable/plain_btn_bg"
+    android:fontFamily="sans-serif-condensed"
+    android:text="@string/register"
+    android:textColor="@android:color/white" />
+
+</RelativeLayout>

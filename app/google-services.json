@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "146666978148",
+    "firebase_url": "https://astronomytddproject.firebaseio.com",
+    "project_id": "astronomytddproject",
+    "storage_bucket": "astronomytddproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146666978148:android:2707f61433ddae57",
+        "android_client_info": {
+          "package_name": "com.binariks.astronomytddproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146666978148-rmope24ib8bd6m8a2i36sot6bv6flumn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.binariks.astronomytddproject",
+            "certificate_hash": "ec1bf553bdc8cec9d1d369f6fd94dcea12500161"
+          }
+        },
+        {
+          "client_id": "146666978148-rb8vsfdbb4k72sdgtkf55hofnsdet5gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx225bUZahK0c5ss-HUW-LDAtbMVu77js"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146666978148-rb8vsfdbb4k72sdgtkf55hofnsdet5gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

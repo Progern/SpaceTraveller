@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="splash_screen_buttons_margins">20dp</dimen>
+  <dimen name="splash_screen_buttons_top_margin">20dp</dimen>
+  <dimen name="splash_screen_first_button_top_margin">30dp</dimen>
+
+  <dimen name="registration_screen_text_fields_side_margins">30dp</dimen>
+  <dimen name="registration_screen_text_fields_top_bottom_margins">20dp</dimen>
+</resources>

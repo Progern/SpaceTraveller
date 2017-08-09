@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/splash_screen_bg">
+
+  <ImageView
+    android:id="@+id/app_logo"
+    android:layout_width="wrap_content"
+    android:layout_height="250dp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/app_logo_splash"
+    android:layout_margin="20dp"/>
+
+  <Button
+    android:id="@+id/sign_in_with_facebook"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/splash_screen_first_button_top_margin"
+    android:layout_marginLeft="@dimen/splash_screen_buttons_margins"
+    android:layout_marginRight="@dimen/splash_screen_buttons_margins"
+    android:layout_below="@id/app_logo"
+    android:background="@drawable/sign_in_with_facebook_button_bg"
+    android:text="@string/sign_in_with_facebook"
+    android:textColor="@android:color/white"
+    android:fontFamily="sans-serif-condensed"/>
+
+  <Button
+    android:id="@+id/sign_in_with_twitter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/splash_screen_buttons_top_margin"
+    android:layout_marginLeft="@dimen/splash_screen_buttons_margins"
+    android:layout_marginRight="@dimen/splash_screen_buttons_margins"
+    android:layout_below="@id/sign_in_with_facebook"
+    android:background="@drawable/sign_in_with_twitter_button_bg"
+    android:text="@string/sign_in_with_twitter"
+    android:textColor="@android:color/white"
+    android:fontFamily="sans-serif-condensed"/>
+
+  <ImageView
+    android:id="@+id/or_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/splash_screen_buttons_top_margin"
+    android:layout_below="@id/sign_in_with_twitter"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/splash_screen_or_text" />
+
+  <Button
+    android:id="@+id/sign_in_with_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/splash_screen_buttons_top_margin"
+    android:layout_marginLeft="@dimen/splash_screen_buttons_margins"
+    android:layout_marginRight="@dimen/splash_screen_buttons_margins"
+    android:layout_below="@id/or_text"
+    android:background="@drawable/sign_in_with_email_button_bg"
+    android:text="@string/sign_in_with_email"
+    android:textColor="@android:color/white"
+    android:fontFamily="sans-serif-condensed"/>
+
+  <TextView
+    android:id="@+id/dont_have_account_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/sign_in_with_email"
+    android:layout_centerHorizontal="true"
+    android:text="@string/create_new_account_proposal_text"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    android:fontFamily="sans-serif-condensed"/>
+
+
+</RelativeLayout>
