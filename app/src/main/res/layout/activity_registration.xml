@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/registration_main_view"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:background="@drawable/registration_screen_bg">
@@ -23,6 +24,7 @@
     android:fontFamily="sans-serif-condensed"
     android:hint="@string/email_adress_hint"
     android:inputType="textEmailAddress"
+    android:textColor="@android:color/white"
     android:textColorHint="@android:color/white" />
 
   <EditText
@@ -38,6 +40,7 @@
     android:fontFamily="sans-serif-condensed"
     android:hint="@string/password_hint"
     android:inputType="textPassword"
+    android:textColor="@android:color/white"
     android:textColorHint="@android:color/white" />
 
   <Button

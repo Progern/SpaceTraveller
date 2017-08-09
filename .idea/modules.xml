@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AstronomyTDDProject.iml" filepath="$PROJECT_DIR$/AstronomyTDDProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpaceTraveller.iml" filepath="$PROJECT_DIR$/SpaceTraveller.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -3,7 +3,6 @@ package com.binariks.astronomytddproject.Activities
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.binariks.astronomytddproject.R
-import com.binariks.astronomytddproject.Utils.FontUtils
 import com.binariks.astronomytddproject.Utils.FullScreenActivityUtils
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_splash_screen.*
@@ -15,7 +14,7 @@ import org.jetbrains.anko.toast
 class SplashScreenActivity : AppCompatActivity() {
 
     lateinit var mFirebaseAuth: FirebaseAuth
-    lateinit var mFirebaseAuthListener : FirebaseAuth.AuthStateListener
+    lateinit var mFirebaseAuthListener: FirebaseAuth.AuthStateListener
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
